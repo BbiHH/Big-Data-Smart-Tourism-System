@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>智慧旅游大数据系统</title>
+	<link rel="icon" href="./images/疫情填报.svg">
+	<!--mobile apps-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script
+		type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!--mobile apps-->
+	<!--Custom Theme files -->
+	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+	<link rel="stylesheet" href="./font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!-- //Custom Theme files -->
+	<!-- js -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<!--//web-fonts-->
+	<!--animate-->
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+	<!--//end-animate-->
+	<!-- start-smoth-scrolling-->
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+
+				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+			});
+		});
+	</script>
+	<!--//end-smoth-scrolling-->
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Lato:300,700');
+
+		body {
+			background: #81CCE8;
+		}
+
+		.search-box {
+			margin-top: 3.5em;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		input {
+			box-shadow: 0px 5px 7px rgba(0, 0, 0, .1);
+			background: rgba(255, 255, 255, .7);
+			border: 2px solid rgba(133, 176, 218, .7);
+			outline: none;
+			width: 500px;
+			height: 63px;
+			border-radius: 15px 0 0 15px;
+			font-size: 1.4em;
+			font-weight: 300;
+			padding: 0px 10px;
+			font-family: 'Lato', sans-serif;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			color: rgba(31, 60, 136, .7);
+		}
+
+		input::-moz-placeholder {
+			/* Mozilla Firefox 19+ */
+			color: #000;
+			opacity: 1;
+		}
+
+		.search-btn {
+			box-shadow: 0px 5px 7px rgba(0, 0, 0, .1);
+			height: 62px;
+			width: 65px;
+			outline: none;
+			border-radius: 0 15px 15px 0;
+			background: linear-gradient(rgba(133, 176, 218, .7), rgb(223, 177, 205));
+			color: #ffffff;
+			border: none;
+			transition: all .3s ease;
+		}
+
+		.search-btn :hover {
+			transition: all .3s ease;
+			font-size: 2.5em;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- PRELOADER
+		============================================= -->
+	<div id="loader-wrapper">
+		<div id="loader">
+			<div class="cssload-spin-box"></div>
+		</div>
+	</div>
+
+	<!--banner-->
+	<div id="home" class="banner">
+		<div class="banner-info">
+			<div class="banner-top">
+				<div class="container">
+					<div class="col-md-6 banner-top-left wow slideInDown animated" data-wow-delay=".5s">
+						<ul class="social-icons">
+							
+						</ul>
+					</div>
+					<div class="col-md-6 banner-top-right wow slideInDown animated" data-wow-delay=".5s">
+						
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<div class="banner-text" style="margin-top: -10px;">
+				<h1 class="wow slideInRight animated" data-wow-delay=".5s"
+					style="font-size: 3.5em;font-weight: lighter;color: rgb(237, 243, 255);margin-bottom: 20px;">智慧旅游大数据系统</h1>
+				<h1 class="wow slideInLeft animated" data-wow-delay=".5s"
+					style="font-size: 5.5em;color: rgb(88,120,181);">请输入您的目的地</h1>
+				<p class="wow slideInRight animated" data-wow-delay=".5s" style="color: rgba(88,120,181,.7);margin-top: 30px;">Please
+					enter your destination </p>
+				<div>
+					<div class="search-box wow slideInLeft animated">
+						<input class="-ms-input-placeholder" type="search" placeholder="请输入景点位置" />
+						<a href="./main.html" target="_black">
+							<button type="submit" class="search-btn"><i class="fa fa-search"></i></button></a>
+					</div>
+				</div>
+			</div>
+			<div style="height:8.1em;"></div>
+			<!--navigation-->
+			<!-- <div class="top-nav wow">
+				<div class="container">
+					<div class="navbar-header logo">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+							data-target="#bs-example-navbar-collapse-1">
+							Menu
+						</button>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-top: 2em;">
+						<div class="menu">
+							<ul class="nav navbar">
+								<li class="menu-item menu-item-current"><a href="#home"
+										class="menu-link scroll">疫情查询</a></li>
+								<li class="menu-item"></li>
+								<li class="menu-item"></li>
+								<li class="menu-item"><a href="#">疫情实况</a></a></li>
+							</ul>
+						</div>
+						<div class="clearfix"> </div>
+						<script src="js/classie.js"></script>
+						<script>
+							(function () {
+								[].slice.call(document.querySelectorAll('.menu')).forEach(function (menu) {
+									var menuItems = menu.querySelectorAll('.menu-link'),
+										setCurrent = function (ev) {
+											ev.preventDefault();
+
+											var item = ev.target.parentNode; // li
+
+											// return if already current
+											if (classie.has(item, 'menu-item-current')) {
+												return false;
+											}
+											// remove current
+											classie.remove(menu.querySelector('.menu-item-current'), 'menu-item-current');
+											// set current
+											classie.add(item, 'menu-item-current');
+										};
+
+									[].slice.call(menuItems).forEach(function (el) {
+										el.addEventListener('click', setCurrent);
+									});
+								});
+							})(window);
+						</script>
+					</div> -->
+					<!-- script-for sticky-nav -->
+					
+					<!-- /script-for sticky-nav -->
+				</div>
+			</div> -->
+			<!--//navigation-->
+		</div>
+	</div>
+	<script src="assets/js/roiton.js"></script>
+	<script src="js/bootstrap.js"></script>
+</body>
+
+</html>

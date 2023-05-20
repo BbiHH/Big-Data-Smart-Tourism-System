@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+
+<html data-template="home" lang="en"
+    class="has-no-js has-scroll-init has-scroll-smooth is-first-hit is-loaded is-ready is-animated has-scrolled has-theme-light"
+    data-scroll-direction="vertical">
+
+<head>
+    <link rel="icon" href="./images/疫情填报.svg">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>智慧旅游大数据系统</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <!-- Animated  CSS  -->
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <!-- LineIcon Css -->
+    <link rel="stylesheet" href="assets/css/LineIcons.css">
+    <!--  Magnific Popup CSS  -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!--  Owl Carousel CSS  -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script
+    type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--mobile apps-->
+<!--Custom Theme files -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="./font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+<!-- //Custom Theme files -->
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!--//web-fonts-->
+<!--animate-->
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<!-- Style CSS -->
+<link rel="stylesheet" href="assets/css/style.css">
+
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+<!--//end-animate-->
+<!-- start-smoth-scrolling-->
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+            event.preventDefault();
+
+            $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+        });
+    });
+</script>
+<!--//end-smoth-scrolling-->
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Lato:300,700');
+
+    body {
+        background: #81CCE8;
+    }
+
+    .search-box {
+        margin-top: 3.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input {
+        box-shadow: 0px 5px 7px rgba(0, 0, 0, .1);
+        background: rgba(255, 255, 255, .7);
+        border: 2px solid rgba(133, 176, 218, .7);
+        outline: none;
+        width: 500px;
+        height: 63px;
+        border-radius: 15px 0 0 15px;
+        font-size: 1.4em;
+        font-weight: 300;
+        padding: 0px 10px;
+        font-family: 'Lato', sans-serif;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: rgba(31, 60, 136, .7);
+    }
+
+    input::-moz-placeholder {
+        /* Mozilla Firefox 19+ */
+        color: #000;
+        opacity: 1;
+    }
+
+    .search-btn {
+        box-shadow: 0px 5px 7px rgba(0, 0, 0, .1);
+        height: 62px;
+        width: 65px;
+        outline: none;
+        border-radius: 0 15px 15px 0;
+        background: linear-gradient(rgba(133, 176, 218, .7), rgb(223, 177, 205));
+        color: #ffffff;
+        border: none;
+        transition: all .3s ease;
+    }
+
+    .search-btn :hover {
+        transition: all .3s ease;
+        font-size: 2.5em;
+    }
+</style>
+
+
+    <!-- Styles -->
+    <style media="all">
+        .c-preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 4000;
+            transition: visibility .3s cubic-bezier(.4, 0, 0, 1);
+            visibility: visible;
+            background-color: #231f20
+        }
+
+        .is-loaded .c-preloader {
+            visibility: hidden
+        }
+
+        .c-preloader_inner {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transform: translate3d(-50%, -50%, 0);
+            transition: transform .3s cubic-bezier(.4, 0, 0, 1), opacity .3s cubic-bezier(.4, 0, 0, 1);
+            opacity: 1
+        }
+
+        .is-loaded .c-preloader_inner {
+            transform: translate3d(-50%, calc(-50% + 100px), 0);
+            opacity: 0
+        }
+
+        .c-preloader_logo {
+            width: 4.70588rem;
+            height: 2.05882rem;
+            color: #fff !important;
+            margin-bottom: 3.52941rem
+        }
+
+        .c-preloader_spinner {
+            position: absolute;
+            left: 50%;
+            bottom: -60px;
+            margin-left: -30px;
+            width: 60px;
+            height: 60px;
+            transform: scale(1);
+            display: flex;
+            justify-content: center;
+            align-items: center
+        }
+
+        .c-preloader_spinner svg {
+            width: 1.75em;
+            transform-origin: center;
+            -webkit-animation: spinnerRotate 2s linear infinite;
+            animation: spinnerRotate 2s linear infinite
+        }
+
+        .c-preloader_spinner circle {
+            fill: none;
+            stroke: #fff;
+            stroke-width: 2;
+            stroke-dasharray: 1, 200;
+            stroke-dashoffset: 0;
+            stroke-linecap: round;
+            -webkit-animation: spinnerDash 1.5s ease-in-out infinite;
+            animation: spinnerDash 1.5s ease-in-out infinite
+        }
+
+        @-webkit-keyframes spinnerRotate {
+            to {
+                transform: rotate(1turn)
+            }
+        }
+
+        @keyframes spinnerRotate {
+            to {
+                transform: rotate(1turn)
+            }
+        }
+
+        @-webkit-keyframes spinnerDash {
+            0% {
+                stroke-dasharray: 1, 200;
+                stroke-dashoffset: 0
+            }
+
+            50% {
+                stroke-dasharray: 90, 200;
+                stroke-dashoffset: -35px
+            }
+
+            to {
+                stroke-dashoffset: -125px
+            }
+        }
+
+        @keyframes spinnerDash {
+            0% {
+                stroke-dasharray: 1, 200;
+                stroke-dashoffset: 0
+            }
+
+            50% {
+                stroke-dasharray: 90, 200;
+                stroke-dashoffset: -35px
+            }
+
+            to {
+                stroke-dashoffset: -125px
+            }
+        }
+    </style>
+    <link id="stylesheet" rel="stylesheet" href="./css/main.css" media="all"
+        onload=" this.onload=null; this.isLoaded=true">
+</head>
+
+
+
+<body>
+
+    <div id="loader-wrapper">
+		<div id="loader">
+			<div class="cssload-spin-box"></div>
+		</div>
+	</div>
+
+
+    <div data-load-container="">
+        <div class="c-header">
+            <div class="c-header_inner">
+                <a href="#" class="c-header_logo">
+                    <svg role="img" class="c-header_logo_icon">
+                        <use xlink:href="#"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <!-- 这里是底部菜单 -->
+        <nav class="c-menu-desktop" data-module-menu-desktop="m2">
+            <div class="c-menu-desktop_inner" data-menu-desktop="inner">
+                <ul class="c-menu-desktop_list">
+                    <li class="c-menu-desktop_list_item is-active" data-menu-desktop="item" data-id="about">
+                        <button type="button" class="c-menu-desktop_list_item_link" data-module-scroll-to="m3"
+                            data-scroll-to-target="#about">首页</button>
+                    </li>
+                    <li class="c-menu-desktop_list_item" data-menu-desktop="item" data-id="mission">
+                        <button type="button" class="c-menu-desktop_list_item_link" data-module-scroll-to="m5"
+                            data-scroll-to-target="#mission">景区介绍</button>
+                    </li>
+                    <li class="c-menu-desktop_list_item" data-menu-desktop="item" data-id="featured">
+                        <button type="button" class="c-menu-desktop_list_item_link" data-module-scroll-to="m6"
+                            data-scroll-to-target="#featured">景区展示</button>
+                    </li>
+                    <!-- <li class="c-menu-desktop_list_item" data-menu-desktop="item" data-id="timeline">
+                        <button type="button" class="c-menu-desktop_list_item_link" data-module-scroll-to="m7"
+                            data-scroll-to-target="#timeline">错峰出行</button>
+                    </li> -->
+                    <li class="c-menu-desktop_list_item" data-menu-desktop="item" data-id="designers">
+                        <button type="button" class="c-menu-desktop_list_item_link" data-module-scroll-to="m8"
+                            data-scroll-to-target="#designers">景区评估</button>
+                    </li>
+
+                    <li class="c-menu-desktop_list_item" data-menu-desktop="item" data-id="contact">
+                        <button type="button" class="c-menu-desktop_list_item_link" data-module-scroll-to="m9"
+                            data-scroll-to-target="#contact">分析报告</button>
+                    </li>
+                    <a href="./index.html">
+                    <li class="c-menu-desktop_list_item" data-menu-desktop="item" data-id="contact">
+                        <button type="button" class="c-menu-desktop_list_item_link"
+                            data-scroll-to-target="#contact">返回</button>
+                    </li></a>
+
+                </ul>
+
+                <div class="c-menu-desktop_active" data-menu-desktop="active"
+                    style="width: 83px; transform: translate(0px, 0px);"></div>
+            </div>
+        </nav>
+        <!-- 这里是底部按钮 -->
+
+
+
+        <div class="c-carousel-cursor" data-module-carousel-cursor="m27">
+            <div class="c-carousel-cursor_inner" data-carousel-cursor="cursor">
+                <div class="c-carousel-cursor_list" data-carousel-cursor="list">
+                    <div class="c-carousel-cursor_item" data-carousel-cursor-id="next-black"
+                        data-carousel-cursor="item">
+                        <svg role="img">
+                            <use xlink:href=""></use>
+                        </svg>
+                    </div>
+
+                    <div class="c-carousel-cursor_item" data-carousel-cursor-id="prev-black"
+                        data-carousel-cursor="item">
+                        <svg role="img">
+                            <use xlink:href=""></use>
+                        </svg>
+                    </div>
+
+                    <div class="c-carousel-cursor_item -white" data-carousel-cursor-id="next-white"
+                        data-carousel-cursor="item">
+                        <svg role="img">
+                            <use xlink:href=""></use>
+                        </svg>
+                    </div>
+
+                    <div class="c-carousel-cursor_item -white" data-carousel-cursor-id="prev-white"
+                        data-carousel-cursor="item">
+                        <svg role="img">
+                            <use xlink:href=""></use>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="o-scroll" data-module-scroll="main">
+            <!--第一部分-->
+            <div data-scroll-section="" data-scroll-section-id="section1"
+                style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -772, 0, 1); opacity: 1; pointer-events: all;"
+                data-scroll-section-inview="">
+                <div class="c-nav-trigger is-inview" data-scroll="" data-scroll-call="detect,MenuDesktop"
+                    data-scroll-repeat="" data-scroll-offset="70%,30%" id="about">
+                </div>
+
+                <div class="c-theme-trigger is-inview" data-module-theme="about" data-theme="light" data-scroll=""
+                    data-scroll-call="toggle,Theme,about" data-scroll-repeat="">
+                </div>
+                <div style="background: url('./images/bg1.png'); height: 810pt; width: auto;">
+                    <div style="height: 350pt;">
+                        <p style="font-size: 70px; padding-top: 310px; padding-left: 200px;color: #212d5b;"> 北京环球度假区
+                        <p style="font-size: 21px;padding-left: 200px; color: gray;"> 在下面您可以查看该景区的简介与评价，这里<br>
+                            给您做出目的地的安全指数分析。 </p>
+                        <p style="font-size: 21px;padding-top: 20px;padding-left: 355px;"><strong> 景区综合满意度 </strong></p>
+                        </p>
+                    </div>
+                    <div class="model2" style="margin-left: 180pt; height: 290pt;width: 290pt;">
+                    </div>
+
+                </div>
+
+            </div>
+            <!--第二部分-->
+            <div data-scroll-section="" data-scroll-section-id="section6"
+                style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
+                <div class="c-nav-trigger" data-scroll="" data-scroll-call="detect,MenuDesktop" data-scroll-repeat=""
+                    data-scroll-offset="70%,30%" id="mission">
+                </div>
+
+                <div class="c-theme-trigger" data-module-theme="person" data-theme="light" data-scroll=""
+                    data-scroll-call="toggle,Theme,person" data-scroll-repeat="">
+                </div>
+                <footer class="c-footer" data-scroll="" data-scroll-repeat="" data-scroll-call="toggle,Footer"
+                data-module-footer="m53" style="padding-bottom: 0pt;">
+                <div class="c-section -padding-top u-relative u-background-gray-dark" style="color: black;">
+                    <span class="c-footer_background" style="background-image: url(&#39;);"></span>
+                    <div class="o-container">
+                        <div style="height: 800pt; width:auto; background-color: rgb(255, 255, 255); border-radius: 100px; box-shadow: inset 0 0 50px #000;">
+                            <!-- SKILL ============================================= -->
+                            <section id="skills" class="py-6">
+                                <div class="container">
+
+                                    <div class="section-title">
+                                        
+                                        <h2 class="title text-dark">景区介绍</h2>
+                                    </div>
+
+                                    <div class="row align-items-center mt-5">
+                                        <div class="col-lg-6">
+                                            <h4 class="about-title" >简介</h4>
+                                            
+                                        </div>
+                                        
+                                        <div class="col-lg-6">
+                                            <h4 class="about-title" >不同内容上的满意度</h4>
+                                            
+                                        </div>
+                                    </div> <!-- End row -->
+                                    <div class="row align-items-center mt-5">
+                                        <div class="col-lg-6">
+                                            
+                                            <p class="text-muted " style="margin-top: -80px;">北京环球度假区（Universal Beijing Resort），北京环球度假区是一个广受期待的主题公园旅游目的地，包括开园规模大的环球主题公园，北京环球城市大道，以及两家度假酒店。北京环球度假区糅合中国文化元素精心打造独特体验，拥有七大主题景区。
+                                            </p>
+                                           
+                                        </div>
+                                        
+                                        <div class="col-lg-6" >
+                                            
+                                            <div class="skill-box pt-4 pt-lg-0 mt-4 mt-lg-0">
+                                                
+                                                <div class="skillbar clearfix" data-percent="95%">
+                                                    <div class="skillbar-title"><span>娱乐方面</span></div>
+                                                    <div class="skillbar-bar" style="width: 85%;"></div>
+                                                    <div class="skill-bar-percent">88%</div>
+                                                </div>
+                                                <div class="skillbar clearfix " data-percent="85%">
+                                                    <div class="skillbar-title"><span>人流方面</span></div>
+                                                    <div class="skillbar-bar" style="width: 62%;"></div>
+                                                    <div class="skill-bar-percent">76%</div>
+                                                </div>
+                                                <div class="skillbar clearfix" data-percent="75%">
+                                                    <div class="skillbar-title"><span>服务方面</span></div>
+                                                    <div class="skillbar-bar" style="width: 74%;"></div>
+                                                    <div class="skill-bar-percent">81%</div>
+                                                </div>
+                                                <div class="skillbar clearfix" data-percent="80%">
+                                                    <div class="skillbar-title"><span>饮食方面</span></div>
+                                                    <div class="skillbar-bar" style="width: 79%;"></div>
+                                                    <div class="skill-bar-percent">83%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div> <!-- End container -->
+                            </section> <!-- END SKILL -->
+
+                            <!-- TESTIMONIAL
+        ============================================= -->
+                            
+
+                            <div class="c-carousel-work swiper-container"  data-module-carousel-work>
+                                <div class="c-carousel-work_top swiper-container" data-carousel-work="carousel-top">
+                                    <div class="c-carousel-work_top_wrapper swiper-wrapper">
+                                        <div class="c-carousel-work_top_slide swiper-slide" style="padding: 0;text-align: center;margin-top: -150px;height: 400px;">
+                                            <div class="model23" 
+                                            style=" margin-top: 0%;margin-left: 0%;top: 30pt; width: 100%;height: 96px; ">
+                                            <h1 style="font-size: 30pt; padding-top: 20pt; color:#6E45E2;"> </h1>
+                                        </div>
+                                            <div class="o-container">
+                                                <div style="height: 450px;width: 60%;padding-top: 60pt;margin-left: 180pt;background-color: rgb(255, 255, 255);background-image: url(https://x0.ifengimg.com/res/2021/F2D1254372B68EBB34BFE39B8F8407744AEF73D4_size280_w1440_h840.jpeg); -moz-background-size:100% 100%; background-size:100% 100%">
+                                                    <div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="c-carousel-work_top_slide swiper-slide" style="padding: 0;text-align: center;margin-top: -150px;height: 400px;">
+                                            <div class="model23" 
+                                            style=" margin-top: 0%;margin-left: 0%;top: 30pt; width: 100%;height: 96px; ">
+                                            <h1 style="font-size: 30pt; padding-top: 20pt; color:#6E45E2;">  </h1>
+                                        </div>
+                                            <div class="o-container">
+                                                <div style=" height: 450px;width: 60%;padding-top: 60pt;margin-left: 180pt; background-color: rgb(255, 255, 255);
+                                                background-image: url(http://5b0988e595225.cdn.sohucs.com/images/20191017/e1f072cc795e4ed9bf51205967ca0fd5.jpeg);
+                                                 -moz-background-size:100% 100%; background-size:100% 100%">
+                                                    <div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="c-carousel-work_controls">
+                                    <div class="o-container">
+                                        <div class="c-carousel_scrollbar" data-carousel-work="scrollbar"
+                                            style="color:#6E45E2;"></div>
+                                        <div class="c-carousel_controls">
+                                            <button class="c-carousel_controls_button -prev" type="button"
+                                                data-carousel-work="prev" aria-label="Previous">
+                                                <svg role="img" class="c-header_logo_icon" aria-hidden="true">
+                                                    <use xlink:href="assets/images/sprite.svg#arrow-left"></use>
+                                                </svg>
+                                            </button>
+    
+                                            <button class="c-carousel_controls_button -next" type="button"
+                                                data-carousel-work="next" aria-label="Next">
+                                                <svg role="img" class="c-header_logo_icon" aria-hidden="true">
+                                                    <use xlink:href="assets/images/sprite.svg#arrow-right"></use>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="c-carousel-work_content swiper-container" data-carousel-work="carousel-content">
+                                    <div class="c-carousel-work_content_wrapper swiper-wrapper">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            </div>
+
+            <!--第三部分-->
+            <div data-scroll-section="" data-scroll-section-id="section3"
+                style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; pointer-events: none;padding-top: 10px;background-color:#D4DADC;">
+                <div class="c-nav-trigger" data-scroll="" data-scroll-call="detect,MenuDesktop" data-scroll-repeat=""
+                    data-scroll-offset="70%,30%" id="featured">
+                </div>
+
+                <div class="c-theme-trigger" data-module-theme="featured" data-theme="light" data-scroll=""
+                    data-scroll-call="toggle,Theme,featured" data-scroll-repeat="">
+                </div>
+
+                <div class="c-section -padding-top u-overflow-hidden"
+                    style="background-color:#D4DADC; padding-top: 2.5em;">
+                    <!--替换部分-->
+                    <div class="c-carousel-work_top_slide swiper-slide swiper-slide-active" role="group"
+                        aria-label="1 / 10" style="width: 1536px;">
+                        <div class="o-container" style="padding-left: 0;">
+                            <div class="o-layout -gutter-small">
+                                <p
+                                    style="text-align: center;font-size: 60px;padding-bottom: 0.7em;padding-left: 600px;font-weight: bolder;">
+                                    景区展示</p>
+                                <div class="o-layout_item u-1/2@from-medium">
+                                    <div class="" style="width: 1480pt; height:980px; background-color: white; background-image: url(images/北京环球度假区地图.png);
+                                    -moz-background-size:100% 100%; background-size:100% 100%" ></div>
+
+                                    <div>
+                                    </div>
+                                </div>
+                                <div class="o-layout_item u-1/2@from-medium">
+                                    <div class="model0"
+                                        style="position:absolute;margin-left:350px; height: 980px; width: 1000pt ;">
+                                    </div>
+                                    <div style="position:absolute;margin-left:480px;height: 980px; width: 440pt ;">
+                                        <div
+                                            style="height: 297px; width: 100% ; background-image: url('./images/md4.png');">
+                                            <div class="model12" style="height: 297px; width: 100% ; "></div>
+                                        </div>
+                                        <div class="model11"
+                                            style="height: 390px; width: 100%;background-image: url('./images/md5.png');">
+                                        </div>
+                                        <div class="model7"
+                                        style="height: 290px; width: 100%;background-image: url('./images/md5.png');">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--第四部分-->
+            <div data-scroll-section="" data-scroll-section-id="section4"
+                style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; pointer-events: none;">
+                <div class="c-nav-trigger" data-scroll="" data-scroll-call="detect,MenuDesktop" data-scroll-repeat=""
+                    data-scroll-offset="70%,30%" id="designers">
+                </div>
+
+                <div class="c-theme-trigger" data-module-theme="designers" data-theme="light" data-scroll=""
+                    data-scroll-call="toggle,Theme,designers" data-scroll-repeat="">
+                </div>
+
+                <div class="c-section" style="padding-bottom: 4em;">
+                    <div class="o-container"
+                        style=" height: 850pt;width: 100%;padding: 110pt;padding-bottom: 50pt;padding-left: 75pt;padding-right: 75pt; background-color: rgb(53, 53, 53); background-image:url('./images/md3.png');">
+                        <div
+                            style="width: 100%; height:640pt; background-image: linear-gradient(to bottom,rgb(53, 53, 53), rgba(161,1,242,.2),rgb(53, 53, 53))">
+                            <div class="model16" style="position:absolute;width: 90%;height: 70%;">
+                                6</div>
+                            <div
+                                style="position:absolute;margin-top: 5%;margin-left: 0; width: 480px;height: 340px;background-image: url('./images/md11.png');">
+                                <div class="model4" style="height: 290px; width: 100%;"></div>
+                            </div>
+                            <div
+                                style="position:absolute;margin-top: 23%;margin-left: 0; width: 480px;height: 340px;background-image: url('./images/md11.png'); ">
+                                
+                                <div class="model14" style="padding-top: 10px;height:330px;width: 450px;"></div>
+
+                            </div>
+                            <div class="model13"
+                                style="text-align: center;position:absolute;margin-top: 0%;left: 490px;top: 70pt; width: 50%;height: 8%; background-color:rgba(161,1,242,.2)">
+                                <h1 style="padding-top:20pt; color: snow;font-size: 30pt;">景区综合评估展示</h1>
+                            </div>
+                            <div class="model5"
+                                style="position:absolute;margin-top: 5%;right: 75pt; width: 480px;height:340px; background-image: url('./images/md11.png'); ">
+                                4</div>
+                            <div class="model15"
+                                style="position:absolute;margin-top: 23%;right: 75pt; width: 480px;height: 340px; background-image: url('./images/md11.png'); ">
+                                5</div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <!--第五部分-->
+            <!-- <div data-scroll-section="" data-scroll-section-id="section5"
+                style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0; pointer-events: none;">
+                <div class="c-nav-trigger" data-scroll="" data-scroll-call="detect,MenuDesktop" data-scroll-repeat=""
+                    data-scroll-offset="70%,30%" id="timeline">
+                </div>
+
+                <div class="c-theme-trigger" data-module-theme="timeline" data-theme="light" data-scroll=""
+                    data-scroll-call="toggle,Theme,timeline" data-scroll-repeat="">
+                </div>
+
+
+
+                <div class="c-section u-overflow-hidden" style="padding-bottom: 0;">
+                    <div class="c-section -padding-top u-background-gray-dark u-overflow-hidden"
+                        style=" padding-top: 0em;padding-bottom: 0; background-color: white;">
+                        <div class="o-container" style="color: white;">
+                            <div class="c-separator" style="color: white;">
+                                <h2 class="c-label"></h2>
+                            </div>
+                        </div>
+                        <div class="c-carousel-work swiper-container" data-module-carousel-work>
+                            <div class="c-carousel-work_top swiper-container" data-carousel-work="carousel-top">
+                                <div class="c-carousel-work_top_wrapper swiper-wrapper">
+                                    <div class="c-carousel-work_top_slide swiper-slide" style="padding: 0;text-align: center;">
+                                        <div class="model23" 
+                                        style=" margin-top: 0%;margin-left: 0%;top: 30pt; width: 100%;height: 96px; ">
+                                        <h1 style="font-size: 30pt; padding-top: 20pt; color:#6E45E2;"> 北京环球度假村 </h1>
+                                    </div>
+                                        <div class="o-container">
+                                            <div style=" height: 680pt;width: 100%;padding-top: 60pt;padding-bottom: 110pt;padding-left: 30pt;padding-right: 30pt; background-color: rgb(255, 255, 255);background-image: url(https://x0.ifengimg.com/res/2021/F2D1254372B68EBB34BFE39B8F8407744AEF73D4_size280_w1440_h840.jpeg); -moz-background-size:100% 100%; background-size:100% 100%">
+                                                <div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="c-carousel-work_top_slide swiper-slide" style="padding: 0;text-align: center;">
+                                        <div class="model23" 
+                                        style=" margin-top: 0%;margin-left: 0%;top: 30pt; width: 100%;height: 96px; ">
+                                        <h1 style="font-size: 30pt; padding-top: 20pt; color:#6E45E2;"> 北京环球度假村 </h1>
+                                    </div>
+                                        <div class="o-container">
+                                            <div style=" height: 680pt;width: 100%;padding-top: 60pt;padding-bottom: 110pt;padding-left: 30pt;padding-right: 30pt; background-color: rgb(255, 255, 255);
+                                            background-image: url(http://5b0988e595225.cdn.sohucs.com/images/20191017/e1f072cc795e4ed9bf51205967ca0fd5.jpeg);
+                                             -moz-background-size:100% 100%; background-size:100% 100%">
+                                                <div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="c-carousel-work_controls">
+                                <div class="o-container">
+                                    <div class="c-carousel_scrollbar" data-carousel-work="scrollbar"
+                                        style="color:#6E45E2;"></div>
+                                    <div class="c-carousel_controls">
+                                        <button class="c-carousel_controls_button -prev" type="button"
+                                            data-carousel-work="prev" aria-label="Previous">
+                                            <svg role="img" class="c-header_logo_icon" aria-hidden="true">
+                                                <use xlink:href="assets/images/sprite.svg#arrow-left"></use>
+                                            </svg>
+                                        </button>
+
+                                        <button class="c-carousel_controls_button -next" type="button"
+                                            data-carousel-work="next" aria-label="Next">
+                                            <svg role="img" class="c-header_logo_icon" aria-hidden="true">
+                                                <use xlink:href="assets/images/sprite.svg#arrow-right"></use>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="c-carousel-work_content swiper-container" data-carousel-work="carousel-content">
+                                <div class="c-carousel-work_content_wrapper swiper-wrapper">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            
+            
+            <!--第6部分-->
+
+
+            
+            <!--第7部分-->
+            <div data-scroll-section="" class="u-background-gray-dark" data-scroll-section-id="section7"
+                style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
+                <div class="c-nav-trigger" data-scroll="" data-scroll-call="detect,MenuDesktop" data-scroll-repeat=""
+                    data-scroll-offset="70%,30%" id="contact">
+                </div>
+
+                <div class="c-theme-trigger" data-module-theme="contact" data-theme="dark" data-scroll=""
+                    data-scroll-call="toggle,Theme,contact" data-scroll-repeat="">
+                </div>
+                <div class="c-section -padding-top c-block-text">
+                    <div class="o-container">
+                        <div style="height: 600pt; width: 100%;">
+                            <img src="./images/b1.png">
+                        </div>
+                    </div>
+                </div>
+                            <!-- NEWSLETTER
+        ============================================= -->
+            <div class="newsletter-01 bg-base-color py-6">
+                <div class="container">
+                    <div class="row py-4">
+                        <div class="col-lg-9 m-auto">
+                           
+                            <div class="mb-4">
+                                <h2>向我们提交更多您对旅游地区的评价</h2>
+                            </div>
+
+                            <!-- Buttons -->
+                            <div class="hero-btns">
+                                <a href="./contact-01.html" target="_blank" class="btn text-capitalize mb-lg-0">提交</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div> <!--  END NEWSLETTER -->
+
+            </div>
+        </div>
+
+
+        <script type="text/javascript">
+            setTimeout(d, 3020);
+            function d() {
+                $("#bd").css('visibility', 'visible');
+            }
+        </script>
+        <script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
+        <script nomodule="" src="./js/polyfill.min.js" crossorigin="anonymous"></script>
+        <script src="./js/vendors.js" defer=""></script>
+        <script src="./js/app.js" defer=""></script>
+        <script charset="utf-8" src="./js/mychart.js" defer=""></script>
+        <script src="./js/echarts.min.js"></script>
+        <script src="./js/echarts-liquidfill.min.js"></script>
+        <script src="./js/jquery.js"></script>
+
+        <script src="./js/maptalks.min.js"></script>
+        <script src="./js/Tween.js"></script>
+        <script src="./js/echarts-gl.1.1.3.js"></script>
+        <script src="./js/bmap.min.js"></script>
+
+
+        <!--  jquery-3.5.1 -->
+        <script src="assets/js/jquery-3.5.1.min.js"></script>
+        <!--  Bootstrap JS  -->
+        <script src="assets/js/bootstrap.js"></script>
+        <!--  Easing JS  -->
+        <script src="assets/js/jquery.easing.min.js"></script>
+        <!--  Typed JS  -->
+        <script src="assets/js/typed.js"></script>
+        <!--  Wow JS  -->
+        <script src="assets/js/wow.min.js"></script>
+        <!--  CountTo JS  -->
+        <script src="assets/js/jquery.countTo.js"></script>
+        <!--  Isotope JS  -->
+        <script src="assets/js/isotope.pkgd.min.js"></script>
+        <!--  Magnific Popup JS  -->
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <!--  Owl Carousel JS  -->
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <!--  Custom JS  -->
+        <script src="assets/js/roiton.js"></script>
+        <!--  Custom JS  -->
+        <script src="./js/jquery-2.1.1.js"></script>
+
+        <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
