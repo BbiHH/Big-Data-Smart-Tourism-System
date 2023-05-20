@@ -1,0 +1,676 @@
+[{
+	"名称": "北京环球度假区",
+	"英文名": "Universal Beijing Resort",
+	"pois_sorce": 377.18,
+	"comment_count": 2295,
+	"myd_sorce": 0.1643485839,
+	"评论个数": 6242,
+	"正面个数": 3699,
+	"myd": 0.7962992631
+}, {
+	"名称": "故宫博物院",
+	"英文名": "The Palace Museum",
+	"pois_sorce": 10689.949,
+	"comment_count": 2980,
+	"myd_sorce": 3.5872312081,
+	"评论个数": 4550,
+	"正面个数": 4311,
+	"myd": 0.9737362637
+}, {
+	"名称": "八达岭长城",
+	"英文名": "Badaling Great Wall",
+	"pois_sorce": 6499.139,
+	"comment_count": 2718,
+	"myd_sorce": 2.391147535,
+	"评论个数": 2790,
+	"正面个数": 2267,
+	"myd": 0.9062724014
+}, {
+	"名称": "颐和园",
+	"英文名": "Summer Palace",
+	"pois_sorce": 7335.099,
+	"comment_count": 2796,
+	"myd_sorce": 2.6234259657,
+	"评论个数": 4435,
+	"正面个数": 3851,
+	"myd": 0.9341600902
+}, {
+	"名称": "恭王府",
+	"英文名": "Prince Gong's Mansion",
+	"pois_sorce": 6203.145,
+	"comment_count": 2467,
+	"myd_sorce": 2.5144487231,
+	"评论个数": 2748,
+	"正面个数": 2411,
+	"myd": 0.9386826783
+}, {
+	"名称": "天安门广场",
+	"英文名": "Tiananmen Square",
+	"pois_sorce": 8907.276,
+	"comment_count": 2992,
+	"myd_sorce": 2.9770307487,
+	"评论个数": 996,
+	"正面个数": 928,
+	"myd": 0.9658634538
+}, {
+	"名称": "中国国家博物馆",
+	"英文名": "National Museum of China",
+	"pois_sorce": 8218.942,
+	"comment_count": 2643,
+	"myd_sorce": 3.109701854,
+	"评论个数": 3687,
+	"正面个数": 3351,
+	"myd": 0.9544344996
+}, {
+	"名称": "天坛",
+	"英文名": "Temple of Heaven",
+	"pois_sorce": 7338.242,
+	"comment_count": 2400,
+	"myd_sorce": 3.0576008333,
+	"评论个数": 4452,
+	"正面个数": 3970,
+	"myd": 0.9458670261
+}, {
+	"名称": "北京野生动物园",
+	"英文名": "Beijing Wildlife Park",
+	"pois_sorce": 5574.196,
+	"comment_count": 2619,
+	"myd_sorce": 2.1283680794,
+	"评论个数": 4416,
+	"正面个数": 3448,
+	"myd": 0.8903985507
+}, {
+	"名称": "古北水镇",
+	"英文名": "Gubei Water Town",
+	"pois_sorce": 6444.616,
+	"comment_count": 2835,
+	"myd_sorce": 2.273233157,
+	"评论个数": 3626,
+	"正面个数": 3067,
+	"myd": 0.9229178158
+}, {
+	"名称": "圆明园",
+	"英文名": "Old Summer Palace",
+	"pois_sorce": 7500.087,
+	"comment_count": 2540,
+	"myd_sorce": 2.9527901575,
+	"评论个数": 3229,
+	"正面个数": 2902,
+	"myd": 0.9493651285
+}, {
+	"名称": "慕田峪长城",
+	"英文名": "Mutianyu Great Wall",
+	"pois_sorce": 8873.749,
+	"comment_count": 2880,
+	"myd_sorce": 3.0811628472,
+	"评论个数": 5598,
+	"正面个数": 4857,
+	"myd": 0.9338156484
+}, {
+	"名称": "中国科学技术馆",
+	"英文名": "China Science and Technology Museum",
+	"pois_sorce": 2271.758,
+	"comment_count": 699,
+	"myd_sorce": 3.2500114449,
+	"评论个数": 971,
+	"正面个数": 839,
+	"myd": 0.9320288363
+}, {
+	"名称": "南锣鼓巷",
+	"英文名": "Nanluoguxiang",
+	"pois_sorce": 5458.877,
+	"comment_count": 2856,
+	"myd_sorce": 1.9113714986,
+	"评论个数": 2432,
+	"正面个数": 1917,
+	"myd": 0.8941200658
+}, {
+	"名称": "北京动物园",
+	"英文名": "Beijing Zoo",
+	"pois_sorce": 5969.071,
+	"comment_count": 2560,
+	"myd_sorce": 2.3316683594,
+	"评论个数": 2702,
+	"正面个数": 2200,
+	"myd": 0.9071058475
+}, {
+	"名称": "北京欢乐谷",
+	"英文名": "Happy Valley Beijing",
+	"pois_sorce": 3589.55,
+	"comment_count": 2493,
+	"myd_sorce": 1.4398515844,
+	"评论个数": 6660,
+	"正面个数": 4810,
+	"myd": 0.8611111111
+}, {
+	"名称": "什刹海",
+	"英文名": "Shichahai",
+	"pois_sorce": 4596.695,
+	"comment_count": 1665,
+	"myd_sorce": 2.7607777778,
+	"评论个数": 1701,
+	"正面个数": 1512,
+	"myd": 0.9444444444
+}, {
+	"名称": "北京海洋馆",
+	"英文名": "Beijing Aquarium",
+	"pois_sorce": 4858.236,
+	"comment_count": 2451,
+	"myd_sorce": 1.9821444308,
+	"评论个数": 2628,
+	"正面个数": 2066,
+	"myd": 0.8930745814
+}, {
+	"名称": "北海公园",
+	"英文名": "Beihai Park",
+	"pois_sorce": 7998.845,
+	"comment_count": 2904,
+	"myd_sorce": 2.7544232094,
+	"评论个数": 5482,
+	"正面个数": 4827,
+	"myd": 0.9402590296
+}, {
+	"名称": "国家大剧院",
+	"英文名": "National Center for the Performing Arts",
+	"pois_sorce": 3131.956,
+	"comment_count": 1278,
+	"myd_sorce": 2.4506697966,
+	"评论个数": 989,
+	"正面个数": 803,
+	"myd": 0.9059656218
+}, {
+	"名称": "雍和宫",
+	"英文名": "Yonghe Temple",
+	"pois_sorce": 3271.361,
+	"comment_count": 1568,
+	"myd_sorce": 2.0863271684,
+	"评论个数": 1416,
+	"正面个数": 1161,
+	"myd": 0.9099576271
+}, {
+	"名称": "香山公园",
+	"英文名": "Fragrant Hills Park",
+	"pois_sorce": 6039.546,
+	"comment_count": 2431,
+	"myd_sorce": 2.4843874949,
+	"评论个数": 3477,
+	"正面个数": 2980,
+	"myd": 0.9285303422
+}, {
+	"名称": "景山公园",
+	"英文名": "Jingshan Park",
+	"pois_sorce": 7741.017,
+	"comment_count": 2679,
+	"myd_sorce": 2.8895173572,
+	"评论个数": 4305,
+	"正面个数": 3837,
+	"myd": 0.9456445993
+}, {
+	"名称": "明十三陵",
+	"英文名": "Ming Tombs",
+	"pois_sorce": 2124.079,
+	"comment_count": 2406,
+	"myd_sorce": 0.882825852,
+	"评论个数": 1571,
+	"正面个数": 1136,
+	"myd": 0.8615531509
+}, {
+	"名称": "鸟巢（国家体育场）",
+	"英文名": "Bird's Nest (National Stadium)",
+	"pois_sorce": 3802.927,
+	"comment_count": 2169,
+	"myd_sorce": 1.7533088981,
+	"评论个数": 1953,
+	"正面个数": 1482,
+	"myd": 0.8794162826
+}, {
+	"名称": "奥林匹克公园",
+	"英文名": "Olympic Garden",
+	"pois_sorce": 3314.268,
+	"comment_count": 1107,
+	"myd_sorce": 2.9939186992,
+	"评论个数": 1920,
+	"正面个数": 1725,
+	"myd": 0.94921875
+}, {
+	"名称": "毛主席纪念堂",
+	"英文名": "Chairman Mao Memorial Hall",
+	"pois_sorce": -36.479,
+	"comment_count": 474,
+	"myd_sorce": -0.0769599156,
+	"评论个数": 251,
+	"正面个数": 96,
+	"myd": 0.6912350598
+}, {
+	"名称": "天安门城楼",
+	"英文名": "Tiananmen Tower",
+	"pois_sorce": 1968.257,
+	"comment_count": 942,
+	"myd_sorce": 2.0894447983,
+	"评论个数": 431,
+	"正面个数": 314,
+	"myd": 0.8642691415
+}, {
+	"名称": "北京天文馆",
+	"英文名": "Beijing Planetarium",
+	"pois_sorce": 1303.375,
+	"comment_count": 619,
+	"myd_sorce": 2.1056138934,
+	"评论个数": 635,
+	"正面个数": 447,
+	"myd": 0.8519685039
+}, {
+	"名称": "清华大学",
+	"英文名": "Tsinghua University",
+	"pois_sorce": 1915.822,
+	"comment_count": 807,
+	"myd_sorce": 2.3740049566,
+	"评论个数": 536,
+	"正面个数": 461,
+	"myd": 0.9300373134
+}, {
+	"名称": "大栅栏",
+	"英文名": "Dashilar",
+	"pois_sorce": 1466.101,
+	"comment_count": 664,
+	"myd_sorce": 2.2079834337,
+	"评论个数": 497,
+	"正面个数": 400,
+	"myd": 0.9024144869
+}, {
+	"名称": "前门大街",
+	"英文名": "Qianmen Street",
+	"pois_sorce": 2296.564,
+	"comment_count": 1171,
+	"myd_sorce": 1.9611989752,
+	"评论个数": 872,
+	"正面个数": 725,
+	"myd": 0.9157110092
+}, {
+	"名称": "王府井",
+	"英文名": "Wangfujing",
+	"pois_sorce": 1812.148,
+	"comment_count": 1340,
+	"myd_sorce": 1.3523492537,
+	"评论个数": 990,
+	"正面个数": 766,
+	"myd": 0.8868686869
+}, {
+	"名称": "北京汽车博物馆",
+	"英文名": "Beijing Automobile Museum",
+	"pois_sorce": 6923.177,
+	"comment_count": 2714,
+	"myd_sorce": 2.550912675,
+	"评论个数": 2891,
+	"正面个数": 2388,
+	"myd": 0.9130058803
+}, {
+	"名称": "中国人民革命军事博物馆",
+	"英文名": "Chinese People's Revolutionary Military Museum",
+	"pois_sorce": 2111.714,
+	"comment_count": 1096,
+	"myd_sorce": 1.9267463504,
+	"评论个数": 563,
+	"正面个数": 414,
+	"myd": 0.8676731794
+}, {
+	"名称": "三里屯",
+	"英文名": "Sanlitun",
+	"pois_sorce": 1528.63,
+	"comment_count": 542,
+	"myd_sorce": 2.8203505535,
+	"评论个数": 385,
+	"正面个数": 336,
+	"myd": 0.9363636364
+}, {
+	"名称": "雁栖湖",
+	"英文名": "Yanqi Lake",
+	"pois_sorce": 2671.41,
+	"comment_count": 2050,
+	"myd_sorce": 1.3031268293,
+	"评论个数": 3797,
+	"正面个数": 2890,
+	"myd": 0.8805636028
+}, {
+	"名称": "南山滑雪场",
+	"英文名": "Nanshan Ski Resort",
+	"pois_sorce": 657.006,
+	"comment_count": 1028,
+	"myd_sorce": 0.6391108949,
+	"评论个数": 1276,
+	"正面个数": 855,
+	"myd": 0.835031348
+}, {
+	"名称": "北京自然博物馆",
+	"英文名": "Beijing Museum of Natural History",
+	"pois_sorce": 1725.854,
+	"comment_count": 733,
+	"myd_sorce": 2.3545075034,
+	"评论个数": 687,
+	"正面个数": 517,
+	"myd": 0.8762736536
+}, {
+	"名称": "世界公园",
+	"英文名": "Beijing World Park",
+	"pois_sorce": 4014.443,
+	"comment_count": 1786,
+	"myd_sorce": 2.2477284434,
+	"评论个数": 3003,
+	"正面个数": 2528,
+	"myd": 0.9209124209
+}, {
+	"名称": "水立方（国家游泳中心）",
+	"英文名": "Water Cube (National Aquatics Center)",
+	"pois_sorce": 612.921,
+	"comment_count": 1291,
+	"myd_sorce": 0.4747645236,
+	"评论个数": 1250,
+	"正面个数": 881,
+	"myd": 0.8524
+}, {
+	"名称": "北京大学",
+	"英文名": "Peking University",
+	"pois_sorce": 2079.588,
+	"comment_count": 897,
+	"myd_sorce": 2.3183812709,
+	"评论个数": 610,
+	"正面个数": 492,
+	"myd": 0.9032786885
+}, {
+	"名称": "黄花城水长城",
+	"英文名": "Huanghuacheng Underwater Great Wall",
+	"pois_sorce": 4114.132,
+	"comment_count": 2046,
+	"myd_sorce": 2.0108172043,
+	"评论个数": 2612,
+	"正面个数": 2190,
+	"myd": 0.9192189893
+}, {
+	"名称": "中国地质博物馆",
+	"英文名": "The China Geological Museum",
+	"pois_sorce": 1941.429,
+	"comment_count": 641,
+	"myd_sorce": 3.02875039,
+	"评论个数": 463,
+	"正面个数": 379,
+	"myd": 0.909287257
+}, {
+	"名称": "798艺术区",
+	"英文名": "798 Art Zone",
+	"pois_sorce": 2186.042,
+	"comment_count": 852,
+	"myd_sorce": 2.5657769953,
+	"评论个数": 545,
+	"正面个数": 443,
+	"myd": 0.9064220183
+}, {
+	"名称": "首都博物馆",
+	"英文名": "Capital Museum",
+	"pois_sorce": 1998.181,
+	"comment_count": 721,
+	"myd_sorce": 2.7714022191,
+	"评论个数": 697,
+	"正面个数": 564,
+	"myd": 0.9045911047
+}, {
+	"名称": "北京独角兽星空艺术馆",
+	"英文名": "Beijing Dujiaoshou Xingkong Art Museum",
+	"pois_sorce": 170.088,
+	"comment_count": 253,
+	"myd_sorce": 0.672284585,
+	"评论个数": 242,
+	"正面个数": 199,
+	"myd": 0.9111570248
+}, {
+	"名称": "故宫珍宝馆",
+	"英文名": "The Antiquarium of The Palace Museum",
+	"pois_sorce": 1033.074,
+	"comment_count": 354,
+	"myd_sorce": 2.9182881356,
+	"评论个数": 258,
+	"正面个数": 208,
+	"myd": 0.9031007752
+}, {
+	"名称": "北京大观园",
+	"英文名": "Grand View Garden",
+	"pois_sorce": 4120.215,
+	"comment_count": 1575,
+	"myd_sorce": 2.6160095238,
+	"评论个数": 1515,
+	"正面个数": 1286,
+	"myd": 0.9244224422
+}, {
+	"名称": "国子监",
+	"英文名": "Guozijian",
+	"pois_sorce": 1128.903,
+	"comment_count": 451,
+	"myd_sorce": 2.5031108647,
+	"评论个数": 362,
+	"正面个数": 314,
+	"myd": 0.9337016575
+}, {
+	"名称": "孔庙和国子监博物馆",
+	"英文名": "Confucius Temple and The Imperial College Museum",
+	"pois_sorce": 1306.322,
+	"comment_count": 604,
+	"myd_sorce": 2.1627847682,
+	"评论个数": 665,
+	"正面个数": 501,
+	"myd": 0.8766917293
+}, {
+	"名称": "八达岭野生动物世界",
+	"英文名": "Badaling Wildlife World",
+	"pois_sorce": 3197.656,
+	"comment_count": 2600,
+	"myd_sorce": 1.2298676923,
+	"评论个数": 2308,
+	"正面个数": 1712,
+	"myd": 0.8708838821
+}, {
+	"名称": "人民大会堂",
+	"英文名": "The Great Hall of the People",
+	"pois_sorce": 758.811,
+	"comment_count": 437,
+	"myd_sorce": 1.736409611,
+	"评论个数": 172,
+	"正面个数": 143,
+	"myd": 0.9156976744
+}, {
+	"名称": "潭柘寺",
+	"英文名": "Tanzhe Temple",
+	"pois_sorce": 1452.0,
+	"comment_count": 727,
+	"myd_sorce": 1.9972489684,
+	"评论个数": 427,
+	"正面个数": 330,
+	"myd": 0.8864168618
+}, {
+	"名称": "德云社剧场",
+	"英文名": "Deyun Crosstalk Theater",
+	"pois_sorce": 81.613,
+	"comment_count": 138,
+	"myd_sorce": 0.5913985507,
+	"评论个数": 46,
+	"正面个数": 28,
+	"myd": 0.8043478261
+}, {
+	"名称": "红螺寺",
+	"英文名": "Hongluo Temple",
+	"pois_sorce": 3344.117,
+	"comment_count": 1571,
+	"myd_sorce": 2.1286549968,
+	"评论个数": 1515,
+	"正面个数": 1284,
+	"myd": 0.9237623762
+}, {
+	"名称": "居庸关长城",
+	"英文名": "The Great Wall at Juyong Pass",
+	"pois_sorce": 1404.729,
+	"comment_count": 1424,
+	"myd_sorce": 0.9864669944,
+	"评论个数": 1001,
+	"正面个数": 755,
+	"myd": 0.8771228771
+}, {
+	"名称": "北京杜莎夫人蜡像馆",
+	"英文名": "Madame Tussauds Beijing",
+	"pois_sorce": 102.911,
+	"comment_count": 280,
+	"myd_sorce": 0.3675392857,
+	"评论个数": 252,
+	"正面个数": 183,
+	"myd": 0.8630952381
+}, {
+	"名称": "八大处公园",
+	"英文名": "Badachu Park",
+	"pois_sorce": 2705.104,
+	"comment_count": 1530,
+	"myd_sorce": 1.7680418301,
+	"评论个数": 1868,
+	"正面个数": 1531,
+	"myd": 0.9097965739
+}, {
+	"名称": "红砖美术馆",
+	"英文名": "Red Brick Art Museum",
+	"pois_sorce": 263.69,
+	"comment_count": 157,
+	"myd_sorce": 1.6795541401,
+	"评论个数": 279,
+	"正面个数": 223,
+	"myd": 0.8996415771
+}, {
+	"名称": "什刹海冰场",
+	"英文名": null,
+	"pois_sorce": 297.837,
+	"comment_count": 162,
+	"myd_sorce": 1.8385,
+	"评论个数": 239,
+	"正面个数": 191,
+	"myd": 0.89958159
+}, {
+	"名称": "龙庆峡",
+	"英文名": "Longqing Gorge",
+	"pois_sorce": 1468.556,
+	"comment_count": 1318,
+	"myd_sorce": 1.1142306525,
+	"评论个数": 1646,
+	"正面个数": 1222,
+	"myd": 0.8712029162
+}, {
+	"名称": "中国美术馆",
+	"英文名": "National Art Museum of China",
+	"pois_sorce": 1279.866,
+	"comment_count": 461,
+	"myd_sorce": 2.7762819957,
+	"评论个数": 370,
+	"正面个数": 272,
+	"myd": 0.8675675676
+}, {
+	"名称": "北京平谷金海湖",
+	"英文名": "Beijing Pinghu District Jinhai Lake",
+	"pois_sorce": 908.905,
+	"comment_count": 1250,
+	"myd_sorce": 0.727124,
+	"评论个数": 1926,
+	"正面个数": 1372,
+	"myd": 0.8561786085
+}, {
+	"名称": "司马台长城",
+	"英文名": "Simatai Great Wall",
+	"pois_sorce": 1279.342,
+	"comment_count": 759,
+	"myd_sorce": 1.6855625823,
+	"评论个数": 675,
+	"正面个数": 551,
+	"myd": 0.9081481481
+}, {
+	"名称": "国家图书馆",
+	"英文名": "National Library",
+	"pois_sorce": 1165.226,
+	"comment_count": 366,
+	"myd_sorce": 3.1836775956,
+	"评论个数": 203,
+	"正面个数": 178,
+	"myd": 0.9384236453
+}, {
+	"名称": "中央广播电视塔",
+	"英文名": "CCTV Tower",
+	"pois_sorce": 1571.949,
+	"comment_count": 1234,
+	"myd_sorce": 1.2738646677,
+	"评论个数": 1335,
+	"正面个数": 1035,
+	"myd": 0.8876404494
+}, {
+	"名称": "烟袋斜街",
+	"英文名": "Yandaixie Street",
+	"pois_sorce": 1300.174,
+	"comment_count": 494,
+	"myd_sorce": 2.6319311741,
+	"评论个数": 416,
+	"正面个数": 372,
+	"myd": 0.9471153846
+}, {
+	"名称": "老舍茶馆",
+	"英文名": "Lao She Teahouse",
+	"pois_sorce": 1531.544,
+	"comment_count": 794,
+	"myd_sorce": 1.9288967254,
+	"评论个数": 577,
+	"正面个数": 464,
+	"myd": 0.9020797227
+}, {
+	"名称": "中粮祥云小镇",
+	"英文名": "Shine Hills",
+	"pois_sorce": 2212.135,
+	"comment_count": 698,
+	"myd_sorce": 3.169247851,
+	"评论个数": 697,
+	"正面个数": 649,
+	"myd": 0.9655667145
+}, {
+	"名称": "北京欢乐水魔方",
+	"英文名": "Happy Cube Water Park",
+	"pois_sorce": -1104.767,
+	"comment_count": 1156,
+	"myd_sorce": -0.9556807958,
+	"评论个数": 2289,
+	"正面个数": 1185,
+	"myd": 0.7588466579
+}, {
+	"名称": "中华民族博物院",
+	"英文名": "China Ethnic Culture Park",
+	"pois_sorce": 1652.548,
+	"comment_count": 880,
+	"myd_sorce": 1.8778954545,
+	"评论个数": 929,
+	"正面个数": 722,
+	"myd": 0.8885898816
+}, {
+	"名称": "中山公园",
+	"英文名": "Zhongshan Park",
+	"pois_sorce": 2072.901,
+	"comment_count": 593,
+	"myd_sorce": 3.4956172007,
+	"评论个数": 1161,
+	"正面个数": 1057,
+	"myd": 0.955211025
+}, {
+	"名称": "青龙峡风景区",
+	"英文名": "Qinglong Gorge Scenic Area",
+	"pois_sorce": 1042.224,
+	"comment_count": 541,
+	"myd_sorce": 1.9264768946,
+	"评论个数": 873,
+	"正面个数": 718,
+	"myd": 0.9112256586
+}, {
+	"名称": "地坛",
+	"英文名": "Temple of the Earth",
+	"pois_sorce": 1509.705,
+	"comment_count": 664,
+	"myd_sorce": 2.2736521084,
+	"评论个数": 831,
+	"正面个数": 685,
+	"myd": 0.9121540313
+}]
